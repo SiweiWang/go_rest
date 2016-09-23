@@ -29,7 +29,7 @@ func main() {
         // Simply write some test data for now
         new_user := models.User{
             Name:   "John Doe",
-            Gender: "Male",
+            Gender: "male",
             Age:    34,
             Id:     p.ByName("id"),
         }
